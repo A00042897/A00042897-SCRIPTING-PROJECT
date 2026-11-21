@@ -1,0 +1,88 @@
+
+################ FINAL INVESTIGATION REPORT ##################
+
+ FIREWALL DATA ANALYSIS
+
+ALLOWED CONNECTIONS: 524
+===========================================================
+
+BLOCKED CONNECTIONS: 373
+===========================================================
+
+MALFORMED LINES: 2
+===========================================================
+
+UNIQUE BLOCKED IPs: 203
+===========================================================
+
+MOST OCCURING BLOCKED IPs:
+  203.0.113.55 - OCCURED (78) TIMES
+ 203.0.113.77 - OCCURED (23) TIMES
+ 198.51.100.77 - OCCURED (22) TIMES
+ 203.0.113.90 - OCCURED (20) TIMES
+ 192.168.1.34 - OCCURED (5) TIMES
+
+===========================================================
+
+MOST TARGETED PORTS:
+ Port 22 TARGETED (82) TIMES 
+ Port 443 TARGETED (39) TIMES 
+ Port 8080 TARGETED (35) TIMES 
+ Port 80 TARGETED (33) TIMES 
+ Port 53 TARGETED (31) TIMES 
+ Port 3389 TARGETED (31) TIMES 
+ Port 993 TARGETED (30) TIMES 
+ Port 587 TARGETED (28) TIMES 
+ Port 445 TARGETED (26) TIMES 
+ Port 123 TARGETED (26) TIMES 
+
+===========================================================
+
+ THE FOLLOWING SUSPICIOUS IPs APPREARED IN FIREWALL.LOG
+ 203.0.113.55 - OCCURED (79) TIMES 
+ 203.0.113.90 - OCCURED (20) TIMES 
+ 203.0.113.77 - OCCURED (25) TIMES 
+ 198.51.100.77 - OCCURED (30) TIMES 
+ 198.51.100.18 - OCCURED (3) TIMES 
+ 198.51.100.23 - OCCURED (1) TIMES 
+ 203.0.113.12 - OCCURED (1) TIMES 
+
+###################################################################
+
+AUTHENTICATION DATA ANALYSIS
+
+SUCCESSFUL LOGINS: 314
+
+===========================================================
+
+FAILED LOGINS: 165
+
+===========================================================
+
+ACCOUNT LOCKOUTS: 5
+
+===========================================================
+
+MOST FAILED LOGIN IPs:
+ 198.51.100.23 - OCCURED (46) TIMES 
+ 203.0.113.55 - OCCURED (20) TIMES 
+ 203.0.113.77 - OCCURED (17) TIMES 
+ 192.168.1.20 - OCCURED (4) TIMES 
+ 192.168.1.30 - OCCURED (3) TIMES 
+
+===========================================================
+
+MOST TARGETED USERNAMES:
+ admin  - OCCURED (53) TIMES
+ svc_backup  - OCCURED (28) TIMES
+ root  - OCCURED (15) TIMES
+ bob  - OCCURED (14) TIMES
+ carol  - OCCURED (14) TIMES
+
+===========================================================
+ THE FOLLOING USPICIOUS IPs APPREARED IN AUTHENTICATION.LOG
+
+SUSPICIOUS MATCHES:
+ 198.51.100.23 - OCCURED  (46) TIMES 
+ 203.0.113.55 - OCCURED  (20) TIMES 
+ 203.0.113.77 - OCCURED  (17) TIMES 
